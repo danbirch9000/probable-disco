@@ -1,0 +1,864 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Fullpage</title>
+    <meta name="description" content="Hotel, B&B and restaurant template in HTML and with full-page scrolling.">
+    <script src="../scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="../scripts/bootstrap/css/bootstrap.css">
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href='../css/image-box.css'>
+    <link rel="stylesheet" href='../css/components.css'>
+    <link rel="stylesheet" href='../scripts/jquery.fullPage.css'>
+    <link rel="stylesheet" href='../scripts/magnific-popup.css'>
+    <link rel="stylesheet" href='../scripts/flexslider/flexslider.css'>
+    <link rel="stylesheet" href='../scripts/php/contact-form.css'>
+    <link rel="stylesheet" href="../skin.css">
+</head>
+<body class="side-menu-container white-lightbox">
+    <div id="preloader"></div>
+    <header class="side-menu-header side-menu-lateral" data-menu-anima="default">
+        <div class="navbar-header">
+            <a class="hamburger-button" data-menu-anima="fade-left">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="index.html"><img src="../images/hotel/logo.png" alt="logo" /></a>
+        </div>
+        <div class="side-menu-fixed">
+            <div class="top-area">
+                <a class="brand" href="index.html">
+                    <img src="../images/hotel/logo.png" alt="logo">
+                </a>
+            </div>
+            <aside class="sidebar box-middle-container mi-menu">
+                <nav class="sidebar-nav">
+                    <ul class="side-menu box-middle text-center" id="fullpage-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="restaurant.html">Rooms</a></li>
+                        <li><a href="restaurant.html">Gallery</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="bottom-area text-center">
+                <a href="#" class="dropdown-toggle grayscale" data-toggle="dropdown" role="button">
+                    <img src="../images/en.png" alt="" />
+                </a>
+                <span class="space"></span>
+                <a href="#" class="dropdown-toggle grayscale" data-toggle="dropdown" role="button">
+                    <img src="../images/it.png" alt="" />
+                </a>
+                <hr class="space xs" />
+                <div class="social-group">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <p>All rights reserved. </p>
+            </div>
+        </div>
+    </header>
+    <nav class="fullpage-varrow">
+        <div class="arrow down"><i class="fa fa-angle-down"></i></div>
+    </nav>
+    <div id="fullpage-main">
+        <div class="section overlay-container text-center" style="background-image:url('../images/hotel/hd-1.jpg');">
+            <div class="container content box-middle">
+                <p class="text-m text-bold font-2 white">Wonderful paradise</p>
+                <h2 class="text-xl text-light font-2 white">Welcome to the Venture Hotel</h2>
+                <p class="text-s font-2 white">Ut enim ad minim veniam, quis nostrud exercitation<br /> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <hr class="space" />
+                <div class="row">
+                    <div class="col-md-9 col-center">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box adv-img adv-img-full-content show" data-anima="scale-up" data-trigger="hover">
+                                    <div class="img-box anima">
+                                        <img src="../images/hotel/thumb-1.jpg" alt="" />
+                                    </div>
+                                    <a href="#" onclick="$.fn.fullpage.moveTo(2, 0);" class="caption-bg img-box">
+                                        <div class="caption">
+                                            <div class="inner">
+                                                <h2>Rooms</h2>
+                                                <p class="sub"> Enjoy magical rooms </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="img-box adv-img adv-img-full-content show" data-anima="scale-up" data-trigger="hover">
+                                    <div class="img-box anima">
+                                        <img src="../images/hotel/thumb-2.jpg" alt="" />
+                                    </div>
+                                    <a href="#" onclick="$.fn.fullpage.moveTo(3, 0);" class="caption-bg img-box">
+                                        <div class="caption">
+                                            <div class="inner">
+                                                <h2>Facilities</h2>
+                                                <p class="sub"> Explore every day </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="img-box adv-img adv-img-full-content show" data-anima="scale-up" data-trigger="hover">
+                                    <div class="img-box anima">
+                                        <img src="../images/hotel/thumb-3.jpg" alt="" />
+                                    </div>
+                                    <a href="#" onclick="$.fn.fullpage.moveTo(5, 0);" class="caption-bg img-box">
+                                        <div class="caption">
+                                            <div class="inner">
+                                                <h2>Booking</h2>
+                                                <p class="sub"> Reserve now your room</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container white" style="background-image:url('../images/hotel/hd-2.jpg');">
+            <div class="container content box-middle">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="text-xl text-light font-2 white">Our rooms</h2>
+                        <p class="text-s font-2 white">
+                            Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip etua commodo.
+                        </p>
+                        <hr class="space m" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="fa-ul text-s">
+                                    <li><i class="fa-li im-star"></i> Exclusive service</li>
+                                    <li><i class="fa-li im-coffee"></i> Breakfast</li>
+                                    <li><i class="fa-li im-bathrobe"></i> Private bathroom</li>
+                                    <li><i class="fa-li im-lock"></i> Strongbox</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="fa-ul text-s">
+                                    <li><i class="fa-li im-hd"></i> HD Television</li>
+                                    <li><i class="fa-li im-internet"></i> Free WiFi</li>
+                                    <li><i class="fa-li im-coffee"></i> Room service</li>
+                                    <li><i class="fa-li im-alarm-clock"></i> Wakeup service</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="flexslider carousel outer-navs" data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+                            <ul class="slides">
+                                <li>
+                                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                        <i class="fa fa-camera-retro anima"></i>
+                                        <a href="#room-1" class="img-box lightbox anima-scale-up anima" data-lightbox-anima="fade-top">
+                                            <img src="../images/hotel/room-1.jpg" alt="" />
+                                        </a>
+                                        <div class="caption">
+                                            <h2>Single room</h2>
+                                            <p>
+                                                $45 per night
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                        <i class="fa fa-camera-retro anima"></i>
+                                        <a href="#room-1" class="img-box lightbox anima-scale-up anima" data-lightbox-anima="fade-top">
+                                            <img src="../images/hotel/room-2.jpg" alt="" />
+                                        </a>
+                                        <div class="caption">
+                                            <h2>Panorama suite</h2>
+                                            <p>
+                                                $195 per night
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                        <i class="fa fa-camera-retro anima"></i>
+                                        <a href="#room-1" class="img-box lightbox anima-scale-up anima" data-lightbox-anima="fade-top">
+                                            <img src="../images/hotel/room-3.jpg" alt="" />
+                                        </a>
+                                        <div class="caption">
+                                            <h2>Resort suite</h2>
+                                            <p>
+                                                $145 per night
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img-box adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                        <i class="fa fa-camera-retro anima"></i>
+                                        <a href="#room-1" class="img-box lightbox anima-scale-up anima" data-lightbox-anima="fade-top">
+                                            <img src="../images/hotel/room-4.jpg" alt="" />
+                                        </a>
+                                        <div class="caption">
+                                            <h2>King suite</h2>
+                                            <p>
+                                                $299 per night
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="room-1" class="box-lightbox box-room l">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="font-2">Single Room</h2>
+                            <p class="font-2 text-color text-bold">Infinite pleasure for you lifestyle</p>
+                            <hr class="space s" />
+                            <p class="font-2">
+                                Beautiful apartment on the 4th floor in the historic center of Cortina overlooking Martyrs'Square, the heart of the city,
+                                and views of the surrounding mountains. At 5 minutes from the train station. Service bus stop under the house towards the
+                                whole Valbelluna. The apartment has a lift,Internet access and TV. The nice furnishings is based on a different theme for
+                                each room. Spacious and comfortable, it is perfect for small vacation or long stays.
+                            </p>
+                            <hr class="space m" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="fa-ul text-s">
+                                        <li><i class="fa-li im-star"></i> Exclusive service</li>
+                                        <li><i class="fa-li im-coffee"></i> Breakfast</li>
+                                        <li><i class="fa-li im-bathrobe"></i> Private bathroom</li>
+                                        <li><i class="fa-li im-lock"></i> Strongbox</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="fa-ul text-s">
+                                        <li><i class="fa-li im-hd"></i> HD Television</li>
+                                        <li><i class="fa-li im-internet"></i> Free WiFi</li>
+                                        <li><i class="fa-li im-coffee"></i> Room service</li>
+                                        <li><i class="fa-li im-alarm-clock"></i> Wakeup service</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="flexslider nav-inner  visible-dir-nav  slider" data-options="controlNav:true,directionNav:true">
+                                <ul class="slides">
+                                    <li>
+                                        <a class="img-box" href="#">
+                                            <img src="../images/hotel/image-1.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="img-box" href="#">
+                                            <img src="../images/hotel/image-2.jpg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="space m" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#" class="circle-button btn btn-sm">Booking now</a>
+
+                                </div>
+                                <div class="col-md-6 text-right font-2">
+                                    <h2 class="text-l text-black text-color">$150 <span class="text-s">/ NIGHT</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container white text-center" style="background-image:url('../images/hotel/hd-3.jpg');">
+            <div class="container content box-middle">
+                <h2 class="text-xl text-light font-2">Gallery</h2>
+                <hr class="space m" />
+                <div class="album-main white" data-album-anima="fade-right">
+                    <div class="album-list row">
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-1.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Sea view</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-2.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Rooms</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-3.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Resort</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-4.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Location</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-5.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Cousine</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-box col-md-4">
+                            <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover">
+                                <a href="#" class="img-box anima-scale-up anima">
+                                    <img src="../images/hotel/gallery/album-6.jpg" alt="">
+                                </a>
+                                <div class="caption">
+                                    <h2 class="album-name">Shows</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont-album-box">
+                        <p class="album-title">
+                            <span>...</span>
+                            <a class="button-list btn btn-default btn-sm"><i class="fa fa-angle-left"></i> Back to albums</a>
+                        </p>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                        <div class="album-item">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-1.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-2.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-2.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-3.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-4.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-5.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/hotel/gallery/image-6.jpg" data-anima="show-scale" data-anima-out="hide" data-trigger="hover">
+                                            <i class="fa fa-camera anima"></i>
+                                            <img alt="" src="../images/hotel/gallery/image-6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="pagination pagination-sm pagination-grid hide-first-last" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container white" style="background-image:url('../images/hotel/hd-4.jpg');">
+            <div class="container content box-middle">
+                <div class="row">
+                    <div class="col-md-8">
+                        <hr class="space xs" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="text-s font-2 white">
+                                    Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip etua commodo.
+                                    Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod
+                                    iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="text-s font-2 white">
+                                    Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip etua commodo.
+                                    Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod
+                                    iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="space m" />
+                        <div class="flexslider slider" data-options="minWidth:200,controlNav:true,directionNav:false">
+                            <ul class="slides">
+                                <li>
+                                    <p class="block-quote quote-2 white-2">
+                                        It is better to lead from behind and to put others in front,
+                                        especially when you celebrate victory when nice things occur.
+                                        You take the front line when there is danger. Then people will appreciate.
+                                        <span class="quote-author">Jonathan Waller</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="block-quote quote-2 white-2">
+                                        It is better to lead from behind and to put others in front,
+                                        especially when you celebrate victory when nice things occur.
+                                        You take the front line when there is danger. Then people will appreciate.
+                                        <span class="quote-author">Jonathan Waller</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="block-quote quote-2 white-2">
+                                        It is better to lead from behind and to put others in front,
+                                        especially when you celebrate victory when nice things occur.
+                                        You take the front line when there is danger. Then people will appreciate.
+                                        <span class="quote-author">Jonathan Waller</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-xl text-light font-2 white">About us</h2>
+                        <p class="text-s font-2 white">
+                            Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip etua commodo.
+                            Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod
+                            iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        </p>
+                        <hr class="space m" />
+                        <img src="../images/hotel/sign.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section white overlay-container" style="background-image:url('../images/hotel/hd-5.jpg');">
+            <div class="container content box-middle">
+                <div class="row">
+                    <div class="col-md-6 text-left white">
+                        <div class="tab-box white" data-tab-anima="fade-left">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#">Contact informations</a></li>
+                                <li><a href="#">Send a message</a></li>
+                            </ul>
+                            <div class="panel active">
+                                <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>Check-in</p>
+                                            <input name="checkin" id="checkin" type="text" data-toggle="datepicker" class="form-control form-value" placeholder="Check-in" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Check-out</p>
+                                            <input name="checkout" id="checkout" type="text" data-toggle="datepicker" class="form-control form-value" placeholder="Check-out" required>
+                                        </div>
+                                        <hr class="space s" />
+                                        <div class="col-md-4">
+                                            <p>Nights</p>
+                                            <select name="nights" id="nights" class="form-control form-value">
+                                                <option value="">0</option>
+                                                <option value="1" selected="">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>Adults</p>
+                                            <select name="adults" id="adults" class="form-control form-value" required>
+                                                <option value="">0</option>
+                                                <option value="1" selected="">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>Childrens</p>
+                                            <select name="childrens" id="childrens" class="form-control form-value">
+                                                <option value="">0</option>
+                                                <option value="1" selected="">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>
+                                        </div>
+                                        <hr class="space xs" />
+                                        <div class="col-md-12">
+                                            <p>Email</p>
+                                            <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                                            <hr class="space s" />
+                                            <button class="circle-button btn-xs btn" type="submit">Booking now</button>
+                                        </div>
+                                    </div>
+                                    <div class="success-box">
+                                        <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                                    </div>
+                                    <div class="error-box">
+                                        <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="panel">
+                                <p class="font-2">
+                                    Ullamcorper eius aenean provident cillum parturient cillum rutrum ut mattis vel totam conubia consequatur nonummy rem
+                                    similique blanditiis architecto.
+                                </p>
+                                <hr class="space m" />
+                                <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input id="email-form" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                                        </div>
+                                    </div>
+                                    <hr class="space m" />
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <textarea id="messagge" placeholder="Message" name="messagge" class="form-control form-value" required></textarea>
+                                            <hr class="space s" />
+                                            <button class="circle-button btn-xs btn" type="submit">Send messagge</button>
+                                        </div>
+                                    </div>
+                                    <div class="success-box">
+                                        <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                                    </div>
+                                    <div class="error-box">
+                                        <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="font-2">Where we are</h3>
+                        <p class="font-2">
+                            Ullamcorper eius aenean provident cillum parturient cillum rutrum ut mattis vel totam conubia consequatur nonummy rem
+                            similique blanditiis architecto deleniti lobortis nibh nemo bibendum repudiandae integer mollitia  cillum parturient cillum rutrum ut mattis vel totam conubia rnare pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="font-2">Our address</h3>
+                                <p class="font-2">
+                                    Sturlly Technologies<br />
+                                    PO Box 16122, Collins Street West,<br />
+                                    Victoria 8007, United States.<br />
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="font-2">Contacts</h3>
+                                <ul class="fa-ul text-s font-2">
+                                    <li><i class="fa-li im-home"></i>(+39) 320-30500975</li>
+                                    <li><i class="fa-li im-speach-bubble6"></i>hello@pixor.it</li>
+                                    <li><i class="fa-li im-globe"></i><a href="http://www.pixor.it/">www.pixor.it</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="space m" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" data-lightbox-anima="show-scale"  class="lightbox circle-button btn btn-xs">Show map</a>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="btn-group social-group btn-group-icons">
+                                    <a target="_blank" href="#" data-social="share-facebook"><i class="fa fa-facebook"></i></a>
+                                    <a target="_blank" href="#" data-social="share-twitter"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#" data-social="share-google"><i class="fa fa-instagram"></i></a>
+                                    <a target="_blank" href="#" data-social="share-linkedin"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <link rel="stylesheet" href="../scripts/iconsmind/solid-icons.min.css">
+        <script async src="../scripts/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/animations.css">
+        <script src="../scripts/imagesloaded.min.js"></script>
+        <script src='../scripts/jquery.fullPage.min.js'></script>
+        <script src='../scripts/jquery.slimscroll.min.js'></script>
+        <script src='../scripts/jquery.magnific-popup.min.js'></script>
+        <script src='../scripts/flexslider/jquery.flexslider-min.js'></script>
+        <script src='../scripts/jquery.twbsPagination.min.js'></script>
+        <script src='../scripts/jquery.tab-accordion.js'></script>
+        <script src='../scripts/php/datepicker.min.js'></script>
+        <script src='../scripts/php/contact-form.js'></script>
+    </footer>
+</body>
+</html>
