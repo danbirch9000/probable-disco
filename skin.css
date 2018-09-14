@@ -929,7 +929,7 @@ header .navbar-mini .navbar-nav > li > a {
     padding: 8px 15px 6px 15px;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 768px) {
     .navbar-header {
         min-height: 65px;
     }
@@ -1040,7 +1040,7 @@ header > .navbar {
     border-right: none;
 }
 
-@media (min-width:993px) {
+@media (min-width:768px) {
     .navbar-brand {
         height: auto;
         margin-top: 14px;
@@ -3916,7 +3916,7 @@ header a.btn-search, .navbar-mini .navbar-form .btn-default {
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
 
     header .navbar-nav > li > a {
         padding: 10px 15px 10px 15px;

@@ -298,14 +298,14 @@ function isScrollView(t) {
                 cH = $(t).height();
                 cW = $(t).width();
             }
-            if (wh > 992 && iframe) $(t).find(".videobox").css("height", "130%");
+            if (wh > 767 && iframe) $(t).find(".videobox").css("height", "130%");
             var vidH = $(obj).height();
             var vidW = $(obj).width();
 
             var proportion = cH / vidH;
             var newWidth = vidW * proportion;
             if (newWidth / vidW > 1 && ($(window).width() < newWidth && vidH < cH || $(window).width() < 769)) {
-                if (wh < 992 && !iframe) newWidth = newWidth + 100;
+                if (wh < 767 && !iframe) newWidth = newWidth + 100;
                 $(obj).css("width", Math.ceil(newWidth) + "px");
                 $(obj).css("margin-left", "-" + Math.floor(((newWidth - cW) / 2)) + "px");
             }
@@ -619,7 +619,7 @@ function isScrollView(t) {
             return vh;
         }
 
-        if (!$(this).hasClass("scroll-mobile-disabled") || width > 993) {
+        if (!$(this).hasClass("scroll-mobile-disabled") || width > 768) {
             var optionsString = $(this).attr("data-options");
             var optionsArr;
             var options = {
@@ -630,7 +630,7 @@ function isScrollView(t) {
                 optionsArr = optionsString.split(",");
                 options = getOptionsString(optionsString, options);
             }
-            if (width < 993) options['alwaysVisible'] = true;
+            if (width < 768) options['alwaysVisible'] = true;
 
             var vh = getHeightFullscreen(this, $(window).height());
             var lh = $(this).attr("data-height-remove");
@@ -701,7 +701,7 @@ function isScrollView(t) {
         if ($(obj).hasClass("carousel")) {
             var slides = $(obj).find(".slides > li");
             var minWidth = 110;
-            if ($(window).width() < 993) {
+            if ($(window).width() < 768) {
                 minWidth = 180;
             }
             var itemMargin = 5;
@@ -752,8 +752,8 @@ function isScrollView(t) {
         var hh = $(window).height();
         var device_screen_size;
         var cache;
-        if (wh < 993) device_screen_size = "device-xs";
-        if (wh > 992 && wh < 1200) device_screen_size = "device-m";
+        if (wh < 768) device_screen_size = "device-xs";
+        if (wh > 767 && wh < 1200) device_screen_size = "device-m";
         if (wh > 1200) device_screen_size = "device-l";
         $("body").addClass(device_screen_size);
 
@@ -762,7 +762,7 @@ function isScrollView(t) {
         $(cache).each(function () {
             $(this).setVideoBgSize(hh, wh);
         });
-        if (wh < 992 && $(".section-bg-video,.header-video").length) {
+        if (wh < 767 && $(".section-bg-video,.header-video").length) {
             setInterval(function () {
                 cache = $(".background-page video,.section-bg-video");
                 $(cache).each(function () {
@@ -1454,7 +1454,7 @@ function isScrollView(t) {
         $(".scroll-content").executeFunction("slimScroll", function () {
             $(".scroll-content").each(function () {
                 $(this).initSlimScroll();
-                if ($(window).width() < 993) $(".slimScrollBar").css("height", "50px");
+                if ($(window).width() < 768) $(".slimScrollBar").css("height", "50px");
             });
             $(".scroll-content").on("mousewheel DOMMouseScroll", function (n) { n.preventDefault() });
         });

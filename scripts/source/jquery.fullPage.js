@@ -2968,7 +2968,7 @@
         var optionsString = $("#fullpage-main").attr("data-options");
         var optionsArr;
         var isFullpage = false;
-        if (optionsString.indexOf("mobileMode") > -1 || winw > 993) isFullpage = true;
+        if (optionsString.indexOf("mobileMode") > -1 || winw > 767) isFullpage = true;
 
         //Top and bottom section components
         $(".hc_fp_bottom_top_container_cnt").each(function () {

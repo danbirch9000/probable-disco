@@ -59,14 +59,14 @@
 
         var x = 0 - arrGmap["marker-pos-left"];
         var y = 0 - arrGmap["marker-pos-top"];
-        if (!isEmpty(arrGmap["marker-pos"]) && $(window).width() > 993) {
+        if (!isEmpty(arrGmap["marker-pos"]) && $(window).width() > 767) {
             var p = arrGmap["marker-pos"];
             if (p == 'col-md-6-right') x = x - 1 * $(".col-md-6").outerWidth() / 2;
             else if (p == 'col-md-6-left') x = x + $(".col-md-6").outerWidth() / 2;
             else if (p == 'center-bottom') y = y - 1 * $(obj).outerHeight() / 4 - 30;
             else if (p == 'center-top') y = y + $(obj).outerHeight() / 2 - 60;
         }
-        if ($(window).width() > 993 || isEmpty(p)) GMap.panBy(x, y);
+        if ($(window).width() > 768 || isEmpty(p)) GMap.panBy(x, y);
     }
     function initializeGMapByAdress(obj) {
         var arrGmap = getAttrs(obj);

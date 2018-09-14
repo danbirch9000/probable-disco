@@ -940,7 +940,7 @@ div.call-action-box a, div.call-action-box a.btn {
     margin: 0;
 }
 
-@media (max-width:992px) {
+@media (max-width:767px) {
     .call-action-box.full-width .vertical-row > .row {
         display: block;
         width: 100%;
@@ -1012,7 +1012,7 @@ LISTS
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .advs-box-side-icon .icon-box, .advs-box-side-icon .caption-box {
         display: block;
         text-align: center;
@@ -1118,7 +1118,7 @@ MOBILE - PHONE - Extra small devices
 MOBILE - TABLET - Small devices
 ==============================
 */
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 767px) {
         .advs-box-side-img > .row {
         display: block;
     }
@@ -1134,7 +1134,7 @@ MOBILE - TABLET - Small devices
 MOBILE - SMALL DESKTOP - Medium devices
 ==============================
 */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
 }
 /*
 ==============================

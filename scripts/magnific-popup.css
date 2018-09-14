@@ -693,7 +693,7 @@ POPUP
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
         opacity: 1;
         margin: -8px 18px;

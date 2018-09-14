@@ -190,7 +190,7 @@
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .bootgrid-header .actionBar, .bootgrid-footer .infoBar {
         text-align: left;
         padding: 0;

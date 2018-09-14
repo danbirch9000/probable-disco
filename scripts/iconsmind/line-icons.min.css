@@ -58,7 +58,7 @@ Automatic conversion from Font Awesome to Icons Mind
 .mfp-arrow-right {
     right: 18px;
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   .mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
         margin: 12px 18px;
     }

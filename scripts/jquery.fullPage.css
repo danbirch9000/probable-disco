@@ -1087,7 +1087,7 @@ footer {
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     .navbar-fixed-top, .navbar-fixed-bottom {
         position: static !important;
     }
@@ -1238,7 +1238,7 @@ MOBILE - PHONE - Extra small devices
     }
 }
 
-@media (min-width: 993px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1300px) {
     .fullpage-menu {
         right: 0px;
     }
@@ -1252,6 +1252,12 @@ MOBILE - PHONE - Extra small devices
     }
 
     #fullpage-main .container {
-        width: 1100px;
+        width: 630px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+    #fullpage-main .container {
+        width: 400px;
     }
 }

@@ -540,7 +540,7 @@ TIMELINE
 MOBILE - PHONE - Extra small devices
 ==============================
 */
-@media (max-width: 992px) {
+@media (max-width: 767px) {
 
     .mega-tabs .tab-box .nav-tabs > li > a {
         padding-left: 15px;
@@ -699,12 +699,12 @@ MOBILE - PHONE - Extra small devices
 MOBILE - TABLET - Small devices
 ==============================
 */
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 767px) {
 }
 /*
 ==============================
 MOBILE - SMALL DESKTOP - Medium devices
 ==============================
 */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
 }

@@ -418,7 +418,7 @@ a {
     padding-bottom: 0 !important;
 }
 
-@media (min-width:994px) {
+@media (min-width:769px) {
     .no-padding-bottom, .no-padding-bottom .content {
         padding-bottom: 0 !important;
     }
@@ -2385,7 +2385,7 @@ navbar-fixed-top .side-menu-fixed .brand {
     padding-right: 0;
 }
 
-@media (min-width:993px) {
+@media (min-width:768px) {
     .side-menu-lateral .side-menu li:hover > ul {
         display: block !important;
         height: auto !important;
@@ -3285,7 +3285,7 @@ VERTICAL AND PROPORZIONAL ROW
     height: 100%;
 }
 
-@media (min-width:993px) {
+@media (min-width:768px) {
     [class*="boxed"].col-md-2:not(.no-margins) {
         width: calc(16.66666667% - 30px);
     }
@@ -5215,7 +5215,7 @@ SECTIONS
             margin-left: 0 !important;
         }
 
-@media (min-width:994px) {
+@media (min-width:769px) {
     .section-two-blocks .row > div > a.img-box img {
         right: 0;
         position: absolute;
@@ -5853,7 +5853,7 @@ button.navbar-toggle {
     }
 }
 
-@media (min-width: 993px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     .section-two-blocks div.content {
         width: 460px;
     }
@@ -5863,7 +5863,7 @@ button.navbar-toggle {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
     [class*="col-md"] {
         padding-top: 5px;
         padding-bottom: 5px;
