@@ -1990,7 +1990,7 @@ SIDE MENU
 ==============================
 */
 .side-menu-container, .side-menu-container #fullpage-main, .side-menu-container .footer-parallax {
-    padding-left: 250px;
+    padding-left: 180px;
 }
 
     .side-menu-container .fullpage-varrow .arrow {
@@ -2207,7 +2207,7 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a, .mi-menu .sidebar-nav li
 }
 
 .side-menu-fixed {
-    width: 250px;
+    width: 180px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -6457,7 +6457,7 @@ button.navbar-toggle {
         margin-right: 5px;
         max-width: 80%;
         height: auto !important;
-        padding-left: 15px;
+        padding: 5px 0 0 15px;
     }
 
     .navbar-toggle {
@@ -6950,6 +6950,9 @@ MOBILE - EXTRA SMALL SCREENS
 ==============================
 */
 @media (max-width: 767px) {
+    ul {
+        text-align: left!important;
+    }
     .col-md-6, .col-md-3, .col-md-4, .col-md-2, .col-md-9, .col-md-8, .col-md-7, .col-md-1, .col-md-5 {
         width: 100%;
         float: none;
