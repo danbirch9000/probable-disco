@@ -7120,4 +7120,5 @@ html.iex .img-box img {
 .overlay-container.home .container {
     width: 500px;
     background-color: rgba(0,0,0,0.4);
+    margin-top: 70px!important;
 }

@@ -833,7 +833,13 @@ h5 {
     padding-top: 0;
     padding-bottom: 50px;
 }
+@media (min-width: 769px) {
+    .side-menu-fixed .brand {
 
+        padding-bottom: 0;
+    }
+
+}
 .countdown-values.text-xl {
     margin: 0 15px;
     font-weight: 700;
