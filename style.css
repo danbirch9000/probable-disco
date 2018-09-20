@@ -7096,6 +7096,7 @@ html.iex .img-box img {
 }
 .stand-out {
     font-weight: bold;
+    color: #16abe5 !important;
 }
 
 .button-panel-yes-no {

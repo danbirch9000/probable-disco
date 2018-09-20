@@ -4294,3 +4294,6 @@ MOBILE - PHONE - Extra small devices
         border: 1px solid #353535;
     }
 }
+.hidden{
+    display: none !important;
+}
